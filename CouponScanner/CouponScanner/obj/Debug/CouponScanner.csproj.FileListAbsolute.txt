@@ -1,1 +1,2 @@
 C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\CouponScanner.exe.config
+C:\Users\DorinS\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\CouponScanner.exe.config
