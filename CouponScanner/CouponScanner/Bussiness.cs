@@ -5,6 +5,7 @@ using System.Text;
 
 namespace CouponScanner
 {
+    enum CategoryType {Restaurant,Trips,Entertainment,Clothes}
     class Bussiness
     {
         public int ID { get; set; }
@@ -13,5 +14,6 @@ namespace CouponScanner
         public List<Coupon> Sells { get; set; }
         public BussinessOwner OwnedBy { get; set; }
         public Admin CreatedBy { get; set; }
+        public List<CategoryType> BussinessType { get; set; }
     }
 }
