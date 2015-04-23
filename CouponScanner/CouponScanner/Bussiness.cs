@@ -11,7 +11,7 @@ namespace CouponScanner
         public string Name { get; set; }
         public string Location {get;set;}
         public List<Coupon> Sells { get; set; }
-        public int OwnedBy { get; set; }
-        public int CreatedBy { get; set; }
+        public BussinessOwner OwnedBy { get; set; }
+        public Admin CreatedBy { get; set; }
     }
 }
