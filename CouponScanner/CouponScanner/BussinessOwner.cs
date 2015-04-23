@@ -7,6 +7,6 @@ namespace CouponScanner
 {
     public class BussinessOwner : User
     {
-
+    
     }
 }

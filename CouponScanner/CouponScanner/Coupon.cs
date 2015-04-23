@@ -16,8 +16,8 @@ namespace CouponScanner
         public double DiscountPrice { get; set; }
         public DateTime ExperationDate { get; set; }
         public double AvarageRanking { get; set; }
-        public List<IntrestsType> FitsFor { get; set; }
-        public List<OrderedCoupon> Purcheses { get; set; }
-        public Bussiness SoldBy { get; set; }
+        public virtual List<IntrestsType> FitsFor { get; set; }
+        public virtual List<OrderedCoupon> Purcheses { get; set; }
+        public virtual Bussiness SoldBy { get; set; }
     }
 }

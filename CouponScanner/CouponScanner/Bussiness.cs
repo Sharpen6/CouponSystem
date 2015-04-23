@@ -11,9 +11,9 @@ namespace CouponScanner
         public int ID { get; set; }
         public string Name { get; set; }
         public string Location {get;set;}
-        public List<Coupon> Sells { get; set; }
-        public BussinessOwner OwnedBy { get; set; }
-        public Admin CreatedBy { get; set; }
-        public List<CategoryType> BussinessType { get; set; }
+        public virtual List<Coupon> Sells { get; set; }
+        public virtual BussinessOwner OwnedBy { get; set; }
+        public virtual Admin CreatedBy { get; set; }
+        public virtual List<CategoryType> BussinessType { get; set; }
     }
 }

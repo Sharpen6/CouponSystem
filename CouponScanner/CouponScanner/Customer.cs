@@ -7,10 +7,10 @@ namespace CouponScanner
 {
     public class Customer : User
     {
-        public List<Coupon> Purcheses { get; set; }
-        public List<IntrestsType> IntrestsIn { get; set; }
-        public List<Visit> BeenAt { get; set; }
-        public List<Recommendation> Recommends { get; set; }
-        public List<Customer> Friend { get; set; }
+        public virtual List<Coupon> Purcheses { get; set; }
+        public virtual List<IntrestsType> IntrestsIn { get; set; }
+        public virtual List<Visit> BeenAt { get; set; }
+        public virtual List<Recommendation> Recommends { get; set; }
+        public virtual List<Customer> Friend { get; set; }
     }
 }

@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace CouponScanner
 {
-    public class CouponContext : DbContext
+    public class UserContext : DbContext
     {
-        public DbSet<Coupon> Coupons { get; set; }
-        public DbSet<OrderedCoupon> OrderedCoupons { get; set; }
+        public DbSet<User> Coupons { get; set; }
     } 
 }

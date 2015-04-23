@@ -16,20 +16,19 @@ namespace CouponScanner
         public Form1()
         {
             InitializeComponent();
-
-            Run();
-
         }
 
-        private void Run()
+
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            using (var db = new CouponContext())
+            /*using (var db = new UserContext())
             {
                 // Create and save a new Blog 
                 Console.Write("Enter a name for a new Blog: ");
-                var name = Console.ReadLine();
+                var name = textBox1.Text;
 
-                var coupon = new Coupon { ID=3, Name = name };
+                var coupon = new User { ID = 3, Name = name, EMail="asdasd",PhoneNumber=234,Password="sdsa" };
                 db.Coupons.Add(coupon);
                 db.SaveChanges();
 
@@ -41,13 +40,12 @@ namespace CouponScanner
                 Console.WriteLine("All blogs in the database:");
                 foreach (var item in query)
                 {
-                    Console.WriteLine(item.Name);
+                    textBox2.Text+=item.Name+"\n";
                 }
 
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
-            } 
-
+            } */
         }
     }
 
