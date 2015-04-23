@@ -13,6 +13,7 @@ namespace CouponScanner
         public int Rank { get; set; }
         public DateTime UserDate { get; set; }
         public StatusType Status { get; set; }
-        public Coupon DefinedBy { get; set; } 
+        public Coupon DefinedBy { get; set; }
+        public Customer PurchesedBy { get; set; }
     }
 }

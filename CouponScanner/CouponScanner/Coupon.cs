@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CouponScanner
 {
+    enum IntrestsType { Cars,Dancing}
     class Coupon
     {
         public int ID { get; set; }
@@ -15,5 +16,8 @@ namespace CouponScanner
         public double DiscountPrice { get; set; }
         public DateTime ExperationDate { get; set; }
         public double AvarageRanking { get; set; }
+        public List<IntrestsType> FitsFor { get; set; }
+        public List<OrderedCoupon> Purcheses { get; set; }
+        public Bussiness SoldBy { get; set; }
     }
 }

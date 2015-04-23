@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,10 @@ namespace CouponScanner
         {
             InitializeComponent();
         }
+    }
+
+    public class context : DbContext
+    {
+        DbSet<>
     }
 }
