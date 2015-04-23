@@ -18,34 +18,29 @@ namespace CouponScanner
             InitializeComponent();
         }
 
-
-
         private void button1_Click(object sender, EventArgs e)
         {
-            /*using (var db = new UserContext())
+            using (var db = new testContext())
             {
                 // Create and save a new Blog 
                 Console.Write("Enter a name for a new Blog: ");
                 var name = textBox1.Text;
 
                 var coupon = new User { ID = 3, Name = name, EMail="asdasd",PhoneNumber=234,Password="sdsa" };
-                db.Coupons.Add(coupon);
+                db.Users.Add(coupon);
                 db.SaveChanges();
 
                 // Display all Blogs from the database 
-                var query = from b in db.Coupons
+                var query = from b in db.Users
                             orderby b.Name
                             select b;
 
                 Console.WriteLine("All blogs in the database:");
                 foreach (var item in query)
                 {
-                    textBox2.Text+=item.Name+"\n";
+                    textBox2.Text+=item.Password+"\n";
                 }
-
-                Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
-            } */
+            } 
         }
     }
 
