@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CouponScanner
 {
-    class BussinessOwner : User
+    public class BussinessOwner : User
     {
 
     }

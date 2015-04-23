@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CouponScanner
 {
-    enum IntrestsType { Cars,Dancing}
-    class Coupon
+    public  enum IntrestsType { Cars, Dancing }
+    public class Coupon
     {
         public int ID { get; set; }
         public string Name { get; set; }

@@ -4,3 +4,11 @@ C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\obj\Debu
 C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\obj\Debug\CouponScanner.Form1.resources
 C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\obj\Debug\CouponScanner.Properties.Resources.resources
 C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\obj\Debug\CouponScanner.csproj.GenerateResource.Cache
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\CouponScanner.exe
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\CouponScanner.pdb
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\obj\Debug\CouponScanner.exe
+C:\Users\User\Documents\GitHub\CouponSystem\CouponScanner\CouponScanner\obj\Debug\CouponScanner.pdb

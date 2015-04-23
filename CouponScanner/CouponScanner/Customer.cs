@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CouponScanner
 {
-    class Customer : User
+    public class Customer : User
     {
         public List<Coupon> Purcheses { get; set; }
         public List<IntrestsType> IntrestsIn { get; set; }

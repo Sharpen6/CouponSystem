@@ -5,8 +5,8 @@ using System.Text;
 
 namespace CouponScanner
 {
-    enum SourceType { Facebook,Twitter,GooglePlus}
-    class Recommendation
+    public enum SourceType { Facebook, Twitter, GooglePlus }
+    public class Recommendation
     {
         public SourceType Source { get; set; }
         public string Description { get; set; }

@@ -5,8 +5,8 @@ using System.Text;
 
 namespace CouponScanner
 {
-    enum CategoryType {Restaurant,Trips,Entertainment,Clothes}
-    class Bussiness
+    public enum CategoryType { Restaurant, Trips, Entertainment, Clothes }
+    public class Bussiness
     {
         public int ID { get; set; }
         public string Name { get; set; }

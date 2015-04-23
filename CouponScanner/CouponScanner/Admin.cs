@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CouponScanner
 {
-    class Admin
+    public class Admin
     {
     }
 }

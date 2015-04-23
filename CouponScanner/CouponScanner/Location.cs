@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CouponScanner
 {
-    class Location
+    public class Location
     {
         public string Coordinates;
     }

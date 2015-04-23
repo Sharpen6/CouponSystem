@@ -55,6 +55,7 @@
     <Compile Include="Bussiness.cs" />
     <Compile Include="BussinessOwner.cs" />
     <Compile Include="Coupon.cs" />
+    <Compile Include="CouponContext.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

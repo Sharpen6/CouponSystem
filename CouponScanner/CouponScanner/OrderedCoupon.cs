@@ -5,8 +5,8 @@ using System.Text;
 
 namespace CouponScanner
 {
-    enum StatusType { Used, NotUsed, Canceled }
-    class OrderedCoupon
+    public enum StatusType { Used, NotUsed, Canceled }
+    public class OrderedCoupon
     {
         public int SerialNum { get; set; }
         public string Opinion { get; set; }
