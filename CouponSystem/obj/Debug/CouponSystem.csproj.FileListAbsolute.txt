@@ -14,3 +14,6 @@ D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.Properties.Resources.re
 D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.csproj.GenerateResource.Cache
 D:\sagi\CouponSystem\CouponSystem\bin\Debug\CouponSystem.exe
 D:\sagi\CouponSystem\CouponSystem\bin\Debug\CouponSystem.pdb
+D:\dorin\CouponSystem\CouponSystem\bin\Debug\CouponSystem.exe.config
+D:\dorin\CouponSystem\CouponSystem\obj\Debug\CouponSystem.exe
+D:\dorin\CouponSystem\CouponSystem\obj\Debug\CouponSystem.pdb
