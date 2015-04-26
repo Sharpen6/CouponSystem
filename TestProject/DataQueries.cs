@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
+//using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 
 namespace ProjectsManager.Model
 {
@@ -41,6 +42,7 @@ namespace ProjectsManager.Model
             object ans = AdoHelper.ExecuteScalar(query);
             return (int)ans;
         }
+
         public static int AddNewMeeting(string location, string desc,string creator,string header,string currentDate)
         {
             int meetingID = getNextMeetingNum()+1;

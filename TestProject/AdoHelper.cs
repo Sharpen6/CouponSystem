@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-using System.Data.OleDb;
+using System.Data.OleDb;
+
 namespace ProjectsManager.Model
 {
     class AdoHelper
     {
-        static string connectionString = CouponSystem.Properties.Settings.Default.CouponDB;
+        static string connectionString = TestProject.Properties.Settings.Default.CouponDB;
         //static string connectionString = "";
         static OleDbConnection con = new OleDbConnection(connectionString);
 
