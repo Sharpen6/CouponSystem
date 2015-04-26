@@ -9,3 +9,8 @@ D:\CouponSystem\CouponSystem\CouponSystem\obj\Debug\CouponSystem.pdb
 D:\sagi\CouponSystem\CouponSystem\bin\Debug\CouponSystem.exe.config
 D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.exe
 D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.pdb
+D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.csprojResolveAssemblyReference.cache
+D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.Properties.Resources.resources
+D:\sagi\CouponSystem\CouponSystem\obj\Debug\CouponSystem.csproj.GenerateResource.Cache
+D:\sagi\CouponSystem\CouponSystem\bin\Debug\CouponSystem.exe
+D:\sagi\CouponSystem\CouponSystem\bin\Debug\CouponSystem.pdb

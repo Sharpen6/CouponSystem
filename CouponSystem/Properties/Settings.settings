@@ -5,5 +5,8 @@
     <Setting Name="Setting" Type="System.String" Scope="User">
       <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\CouponDB.accdb</Value>
     </Setting>
+    <Setting Name="CouponDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\CouponDB.accdb</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -9,7 +9,8 @@ namespace ProjectsManager.Model
 {
     class AdoHelper
     {
-        static string connectionString = Properties.Settings.Default.DBConnection;
+        static string connectionString = CouponSystem.Properties.Settings.Default.CouponDB;
+        //static string connectionString = "";
         static OleDbConnection con = new OleDbConnection(connectionString);
 
         public static DataTable ExecuteDataTable(string query)
